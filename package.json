@@ -5,8 +5,9 @@
   "author": "",
   "private": true,
   "license": "UNLICENSED",
+  "main": "index.js",
   "scripts": {
-    "install": "npm run build",
+    "prepare": "npm run build",
     "prebuild": "rimraf dist",
     "build": "tsc -p tsconfig.build.json",
     "format": "prettier --write \"test/**/*.ts\" \"libs/**/*.ts\"",
