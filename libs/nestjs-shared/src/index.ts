@@ -1,2 +1,1 @@
-export * from './nestjs-shared.module';
-export * from './nestjs-shared.service';
+export * from './auth/auth.module';
